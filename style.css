@@ -57,14 +57,27 @@ body{
     width: 100%;
 }
 
-.fontLink{
+/* FONTS TESTI */
+
+.font-electrolize{
     font-family: 'Electrolize', sans-serif;;
 	color: white;
 }
 
-.bg-img{
-    background: linear-gradient(rgb(255, 255, 255), rgba(251, 251, 253, 0.08)), url(./media/moon.jpg);
+.font-jura{
+	font-family: 'Jura', sans-serif;
+	color: white;
+}
+
+/* immagine moon */
+.background1{
+	background-image: url(./media/moon.jpg);
 	background-size: cover;
+	position: relative;
+}
+
+.altezza{
+	height: 1000px;
 }
 
 h2 {
@@ -74,5 +87,5 @@ h2 {
 .text {
     position: absolute;
     top: 290px;
-    left: 400px;
+    left: 40px;
 }
