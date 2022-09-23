@@ -57,10 +57,13 @@ body{
     width: 100%;
 }
 
+.cl-bl{
+	color: #2B9DF4;
+}
 /* FONTS TESTI */
 
-.font-electrolize{
-    font-family: 'Electrolize', sans-serif;;
+.font-orbitron{
+    font-family: 'Orbitron', sans-serif;
 	color: white;
 }
 
@@ -77,7 +80,7 @@ body{
 }
 
 .altezza{
-	height: 1000px;
+	height: 900px;
 }
 
 h2 {
@@ -88,4 +91,27 @@ h2 {
     position: absolute;
     top: 290px;
     left: 40px;
+}
+
+.freccia{
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+}
+
+.altezza2{
+	height: 400px;
+}
+
+h3{
+	font-size: 20px;
+}
+
+.number{
+	font-size: 60px;
+	justify-content: space-between;
+}
+
+.linea{
+	border: #2B9DF4 solid 1px;
 }
