@@ -69,7 +69,6 @@ body{
 
 .font-jura{
 	font-family: 'Jura', sans-serif;
-	color: white;
 }
 
 /* immagine moon */
@@ -79,16 +78,23 @@ body{
 	position: relative;
 }
 
-.altezza{
-	height: 900px;
+.mynav{
+	justify-content: space-between;
 }
 
-h2 {
-    font-size: 40px;
+.altezza{
+	height: 1000px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.titolo{
+	display: flex;
 }
 
 .text {
-    position: absolute;
     top: 290px;
     left: 40px;
 }
@@ -103,7 +109,7 @@ h2 {
 	height: 400px;
 }
 
-h3{
+h4{
 	font-size: 20px;
 }
 
@@ -114,4 +120,22 @@ h3{
 
 .linea{
 	border: #2B9DF4 solid 1px;
+}
+
+/* Seconda parte main */
+.spaziomoon2{
+height: 1000px;
+}
+
+h2{
+	font-size: 40px;
+}
+
+.text2{
+	font-size: 30px;
+	justify-content: center;
+}
+
+.interlinea{
+	line-height: 2em;
 }
