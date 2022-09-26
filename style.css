@@ -139,3 +139,82 @@ h2{
 .interlinea{
 	line-height: 2em;
 }
+
+.altezza3{
+	height: 600px;
+}
+
+.altezza4{
+	height: 1400px;
+}
+
+.bordo{
+	border: red solid 2px;
+}
+
+.pippo {
+	height: 1300px;
+	max-width: 100%;
+}
+
+/* .bottone{
+	width: 100px;
+	height: 60px; */
+	/* border: #2B9DF4 solid 3px; */
+	/* border-bottom: red solid 3px;
+	border-right: red solid 3px;
+	border-top: greenyellow solid 0px;
+	border-left: greenyellow solid 0px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+} */
+
+.corners{
+	position: relative;
+	height: 90px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+}
+
+.corner1{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-left: #2B9DF4 solid 4px;
+	border-top: #2B9DF4 solid 4px;
+	top: 0;
+	left: 70%;
+	
+}
+
+.corner2{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-right: greenyellow solid 4px;
+	border-top:greenyellow solid 4px;
+	top: 0;
+	right: 0;
+}
+
+.corner3{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-left: #2B9DF4 solid 4px;
+	border-bottom: #2B9DF4 solid 4px;
+	bottom: 0;
+	left: 70%;
+}
+
+.corner4{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-right: greenyellow solid 4px;
+	border-bottom:greenyellow solid 4px;
+	bottom: 0;
+	right: 0;
+}
